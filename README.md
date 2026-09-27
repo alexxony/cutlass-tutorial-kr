@@ -11,15 +11,18 @@
 | 파일 | 내용 | Colab |
 |---|---|---|
 | [`notebooks/01_hello_world.ipynb`](notebooks/01_hello_world.ipynb) | `@cute.kernel`/`@cute.jit` 기초, 스레드 인덱싱, `cute.printf` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/01_hello_world.ipynb) |
+| [`notebooks/02_control_flow.ipynb`](notebooks/02_control_flow.ipynb) | 메타 루프 vs 스테이지드 루프, `range_constexpr`/`range`, `const_expr` 분기 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/02_control_flow.ipynb) |
 
 원본 공식 커리큘럼은 `1_dsl_features`(DSL 기능) → `2_primitives`(Array/Vector/TMA) →
 `3_kernels`(softmax, stencil, Blackwell MMA) 순으로 이어집니다. 이 저장소는 아직
-`1_dsl_features/01_hello_world`만 번역했습니다.
+`1_dsl_features`의 앞 두 노트북만 번역했습니다.
 
 ## 실행 환경
 
-- **GPU**: L4(Colab Pro/Pro+)에서 검증. 원문은 "any CUDA GPU"라 명시하므로 T4 등 다른
-  GPU에서도 동작할 가능성이 높지만, 이 저장소는 L4로만 실측했습니다.
+- **GPU**: L4(Colab Pro/Pro+)에서 검증. `python/CuTeDSL/cutlass/base_dsl/enums.py`의
+  `Arch` enum이 `sm_80`(Ampere)부터 시작하고 `sm_75`(Turing/T4)가 파일 전체에 아예 없음을
+  코드로 확인했습니다 — 무료 T4 티어는 아키텍처상 배제되고, sm_80 이상(A100/L4 등)이
+  필요합니다.
 - **패키지**: `nvidia-cutlass-dsl==4.8.0` (기본 설치는 CUDA 12.x 바이너리, `cu13` extra는
   CUDA 13.x 바이너리로 교체됨 — 실측은 Colab CUDA 13.0 환경에서 기본 설치로 검증).
 
