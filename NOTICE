@@ -3,7 +3,7 @@ from the NVIDIA CUTLASS project (https://github.com/NVIDIA/cutlass), used under
 the BSD 3-Clause License.
 
 Original source: NVIDIA/cutlass, examples/python/CuTeDSL/notebooks/
-  - 1_dsl_features/01_hello_world.ipynb
+  - 1_dsl_features/01_hello_world.ipynb (commit 098de2a652cf8f00fd70b2df54051c7eccbb855a)
 
 Copyright (c) 2017 - 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 SPDX-License-Identifier: BSD-3-Clause

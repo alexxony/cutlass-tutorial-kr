@@ -4,7 +4,7 @@
 한국어로 번역하고, Google Colab에서 직접 실행한 결과와 유의점을 덧붙인 Jupyter 노트북
 모음입니다.
 
-원문 기준: [`NVIDIA/cutlass` examples/python/CuTeDSL/notebooks](https://github.com/NVIDIA/cutlass/tree/main/examples/python/CuTeDSL/notebooks) (BSD-3-Clause)
+원문 기준: [`NVIDIA/cutlass` examples/python/CuTeDSL/notebooks](https://github.com/NVIDIA/cutlass/tree/main/examples/python/CuTeDSL/notebooks) (BSD-3-Clause). 각 노트북 파일이 인용하는 정확한 커밋은 해당 노트북 상단 주석 참고.
 
 ## 노트북
 
@@ -20,7 +20,8 @@
 
 - **GPU**: L4(Colab Pro/Pro+)에서 검증. 원문은 "any CUDA GPU"라 명시하므로 T4 등 다른
   GPU에서도 동작할 가능성이 높지만, 이 저장소는 L4로만 실측했습니다.
-- **패키지**: `nvidia-cutlass-dsl` (CUDA 12.x 기본, CUDA 13.x는 `cu13` extra).
+- **패키지**: `nvidia-cutlass-dsl==4.8.0` (기본 설치는 CUDA 12.x 바이너리, `cu13` extra는
+  CUDA 13.x 바이너리로 교체됨 — 실측은 Colab CUDA 13.0 환경에서 기본 설치로 검증).
 
 ## 라이선스
 
