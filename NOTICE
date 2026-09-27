@@ -1,0 +1,12 @@
+This repository contains Korean translations and adaptations of example code
+from the NVIDIA CUTLASS project (https://github.com/NVIDIA/cutlass), used under
+the BSD 3-Clause License.
+
+Original source: NVIDIA/cutlass, examples/python/CuTeDSL/notebooks/
+  - 1_dsl_features/01_hello_world.ipynb
+
+Copyright (c) 2017 - 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+SPDX-License-Identifier: BSD-3-Clause
+
+The Korean explanations, notes, and notebook structure in this repository
+are original work licensed separately under the MIT License (see LICENSE).
