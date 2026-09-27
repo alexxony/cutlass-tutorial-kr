@@ -10,7 +10,7 @@
 
 | 파일 | 내용 | Colab |
 |---|---|---|
-| [`notebooks/01_hello_world.ipynb`](notebooks/01_hello_world.ipynb) | `@cute.kernel`/`@cute.jit` 기초, 스레드 인덱싱, `cute.printf` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/main/notebooks/01_hello_world.ipynb) |
+| [`notebooks/01_hello_world.ipynb`](notebooks/01_hello_world.ipynb) | `@cute.kernel`/`@cute.jit` 기초, 스레드 인덱싱, `cute.printf` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/01_hello_world.ipynb) |
 
 원본 공식 커리큘럼은 `1_dsl_features`(DSL 기능) → `2_primitives`(Array/Vector/TMA) →
 `3_kernels`(softmax, stencil, Blackwell MMA) 순으로 이어집니다. 이 저장소는 아직
