@@ -13,10 +13,11 @@
 | [`notebooks/01_hello_world.ipynb`](notebooks/01_hello_world.ipynb) | `@cute.kernel`/`@cute.jit` 기초, 스레드 인덱싱, `cute.printf` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/01_hello_world.ipynb) |
 | [`notebooks/02_control_flow.ipynb`](notebooks/02_control_flow.ipynb) | 메타 루프 vs 스테이지드 루프, `range_constexpr`/`range`, `const_expr` 분기 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/02_control_flow.ipynb) |
 | [`notebooks/03_diagnostics.ipynb`](notebooks/03_diagnostics.ipynb) | 컴파일러 진단 `warnings{...}`/`remarks{...}`, 심각도 3단계, `CompilerDiagnosticError`, `CUTE_DSL_ARCH` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/03_diagnostics.ipynb) |
+| [`notebooks/04_zero_cost_abstraction.ipynb`](notebooks/04_zero_cost_abstraction.ipynb) | 클래스·다형성이 트레이스 시점 파이썬이라 컴파일되며 사라짐을 PTX로 확인 (`KeepPTX`, `__ptx__`) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/04_zero_cost_abstraction.ipynb) |
 
 원본 공식 커리큘럼은 `1_dsl_features`(DSL 기능) → `2_primitives`(Array/Vector/TMA) →
-`3_kernels`(softmax, stencil, Blackwell MMA) 순으로 이어집니다. 이 저장소는 아직
-`1_dsl_features`의 앞 세 노트북만 번역했습니다.
+`3_kernels`(softmax, stencil, Blackwell MMA) 순으로 이어집니다. 이 저장소는 `1_dsl_features`의 4개를 모두 번역했고,
+`2_primitives`·`3_kernels`는 아직 손대지 않았습니다.
 
 ## 실행 환경
 
