@@ -15,10 +15,11 @@
 | [`notebooks/03_diagnostics.ipynb`](notebooks/03_diagnostics.ipynb) | 컴파일러 진단 `warnings{...}`/`remarks{...}`, 심각도 3단계, `CompilerDiagnosticError`, `CUTE_DSL_ARCH` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/03_diagnostics.ipynb) |
 | [`notebooks/04_zero_cost_abstraction.ipynb`](notebooks/04_zero_cost_abstraction.ipynb) | 클래스·다형성이 트레이스 시점 파이썬이라 컴파일되며 사라짐을 PTX로 확인 (`KeepPTX`, `__ptx__`) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/04_zero_cost_abstraction.ipynb) |
 | [`notebooks/05_array_concepts.ipynb`](notebooks/05_array_concepts.ipynb) | 원문 `2_primitives/01_array_concepts` — `cutlass.Array`, 네 가지 GPU 메모리 공간(local/shared/global/constant), 슬라이스 = 벡터화 load/store | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/05_array_concepts.ipynb) |
+| [`notebooks/06_vector_concepts.ipynb`](notebooks/06_vector_concepts.ipynb) | 원문 `2_primitives/02_vector_concepts` — `cutlass.Vector`(레지스터) vs `cutlass.Array`(메모리), SIMD 산술, `vector.where`/`full`, `reduce("add")` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alexxony/cutlass-tutorial-kr/blob/master/notebooks/06_vector_concepts.ipynb) |
 
 원본 공식 커리큘럼은 `1_dsl_features`(DSL 기능) → `2_primitives`(Array/Vector/TMA) →
-`3_kernels`(softmax, stencil, Blackwell MMA) 순으로 이어집니다. 이 저장소는 `1_dsl_features`의 4개를 모두 번역했고, `2_primitives`는 `01_array_concepts`까지
-(저장소 안 번호는 이어서 05) 진행했습니다. `3_kernels`는 아직 손대지 않았습니다.
+`3_kernels`(softmax, stencil, Blackwell MMA) 순으로 이어집니다. 이 저장소는 `1_dsl_features`의 4개를 모두 번역했고, `2_primitives`는 `02_vector_concepts`까지
+(저장소 안 번호는 이어서 05, 06) 진행했습니다. `3_kernels`는 아직 손대지 않았습니다.
 
 ## 실행 환경
 
