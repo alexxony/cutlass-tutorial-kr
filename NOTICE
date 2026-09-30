@@ -7,6 +7,7 @@ Original source: NVIDIA/cutlass, examples/python/CuTeDSL/notebooks/
   - 1_dsl_features/02_control_flow.ipynb (commit 098de2a652cf8f00fd70b2df54051c7eccbb855a)
   - 1_dsl_features/03_diagnostics.ipynb (commit 098de2a652cf8f00fd70b2df54051c7eccbb855a)
   - 1_dsl_features/04_zero_cost_abstraction.ipynb (commit 098de2a652cf8f00fd70b2df54051c7eccbb855a)
+  - 2_primitives/01_array_concepts.ipynb (commit 098de2a652cf8f00fd70b2df54051c7eccbb855a)
 
 Copyright (c) 2017 - 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 SPDX-License-Identifier: BSD-3-Clause
